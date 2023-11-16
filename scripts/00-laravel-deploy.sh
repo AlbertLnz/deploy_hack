@@ -13,4 +13,4 @@ php artisan key:generate --show
 
 echo "Running migrations..."
 php artisan migrate
-php artisan passport:install --uuids
+php artisan passport:client --personal
