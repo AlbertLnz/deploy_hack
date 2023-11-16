@@ -13,4 +13,5 @@ php artisan key:generate --show
 
 echo "Running migrations..."
 php artisan migrate
+php artisan passport:install
 php artisan passport:client --personal
